@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "RS1" {
   name      = "Secondresource"
-  location  = "East us"
+  location  = "East US"
 }
 
 # Create virtual network
