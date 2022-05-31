@@ -36,7 +36,7 @@ resource "azurerm_network_interface" "Network2" {
 
 # Create virtual machine
 resource "azurerm_linux_virtual_machine" "main" {
-  name                  = "myVM2"
+  name                  = "myVM3"
   location              = azurerm_resource_group.RS1.location
   resource_group_name   = azurerm_resource_group.RS1.name
   network_interface_ids = [azurerm_network_interface.Network2.id]
