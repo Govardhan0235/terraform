@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "RS1" {
-  name      = "Secondresource"
+  name      = "3resource"
   location  = "East US"
 }
 
